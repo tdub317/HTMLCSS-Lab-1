@@ -1,0 +1,11 @@
+* {
+    font-family: Open Sans;
+}
+
+.page_title, nav {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
