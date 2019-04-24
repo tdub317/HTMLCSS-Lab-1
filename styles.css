@@ -56,15 +56,10 @@ section {
     width: 55%;
 }
 
-section * {
-    width: 100%;
-}
-
 .content_container * {
     display: inline-block;
-    position: relative;
-    width: 100%;
 }
+
 .paragraph_title {
     margin: 0px 0px 10px 0px;
     font-size: 28px;
@@ -77,14 +72,6 @@ section * {
     padding: 0px 0px 0px 15px;
     color: #69696a;
     width: 100%;
-}
-
-/* Fix Scroll Button on bottom middle */
-.scroll_btn {
-    position: fixed;
-    left: 50%;
-    bottom: 3%;
-    transform: translateX(-50%);
 }
 
 /* Circle Style */
@@ -125,6 +112,14 @@ section * {
     width: 160px;
     top: 55%;
     right: 0;
+}
+
+/* Fix Scroll Button on bottom middle */
+.scroll_btn {
+    position: fixed;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
 }
 
 button:hover {
