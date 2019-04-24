@@ -1,5 +1,5 @@
 * {
-    font-family: Open Sans;
+    font-family: "Open Sans";
 }
 
 body {
@@ -16,7 +16,7 @@ header * {
 }
 
 header {
-    margin: 20px 10px 100px 10px;
+    margin: 20px 20px 100px 20px;
 }
 
 .page_title {
@@ -41,7 +41,7 @@ a {
     text-decoration: none;
     color: #69696a;
 }
-
+/* Button Style */
 button {
     border-radius: 25px;
     background-color: #000;
@@ -53,32 +53,53 @@ button {
 .nav_btn {
     padding: 5px 20px;
 }
-
-.container * {
-    margin: 0px 10px;
+/* Section Style */
+section {
+    margin: 0px 0px 0px 20px;
     display: inline-block;
-    position: relative;
+    width: 55%;
 }
 
+section * {
+    width: 100%;
+}
+
+.content_container * {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
 .paragraph_title {
-    margin: 15px;
-    font-size: 24px;
-    width: 30%;
+    margin: 0px 0px 10px 0px;
+    font-size: 28px;
+    color: #000;
     display: block;
 }
 
 .content {
     border-left: 2px solid #69696a;
-    padding: 0px 20px;
+    padding: 0px 0px 0px 15px;
     color: #69696a;
-    width: 50%;
+    width: 100%;
 }
 
+/* Fix Scroll Button on bottom middle */
 .scroll_btn {
     position: fixed;
     left: 50%;
     bottom: 3%;
     transform: translateX(-50%);
+}
+
+/* Circle Style */
+.circle_container {
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 25%;
+    right: 0;
 }
 
 .pink_circle, .purple_circle, .orange_circle {
@@ -89,23 +110,36 @@ button {
 
 .pink_circle {
     background-color: rgba(247, 136, 167, 0.6);
-    height: 200px;
-    width: 200px;
-    right: 25%;
+    height: 240px;
+    width: 240px;
+    right: 20%;
 }
 
 .purple_circle {
     background-color: rgba(207, 130, 213, 0.6);
-    height: 90px;
-    width: 90px;
-    top: 30%;
-    right: 20%;
+    height: 120px;
+    width: 120px;
+    top: 10%;
+    right: 0;
 }
 
 .orange_circle {
     background-color: rgba(247, 193, 162, 0.7);
-    height: 120px;
-    width: 120px;
-    top: 40%;
-    right: 20%;
+    height: 160px;
+    width: 160px;
+    top: 55%;
+    right: 0;
+}
+
+button:hover {
+    color: #000;
+    background-color: #69696a;
+}
+
+a:hover {
+    color: rgba(247, 193, 162, 0.7)
+}
+
+a:active {
+    color: rgba(207, 130, 213, 0.6);
 }
